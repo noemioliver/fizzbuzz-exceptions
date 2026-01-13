@@ -4,7 +4,9 @@
 # - Divisible entre 3 y entre 5, el programa debe imprimir "FizzBuzz"
 # - Si no es divisible ni entre 3 ni entre 5, debe imprimir el número
 
-for i in range(1, 100):
+try:
+    i = int(input("dame un numero: "))
+
     if i % 15 == 0:
         print("FizzBuzz")
     elif i % 3 == 0:
@@ -14,5 +16,5 @@ for i in range(1, 100):
     else:
         print(i)
 
-if __name__ == "__main__":
-    pass
+except ValueError:
+    print("Error solo se aceptan numeros")
