@@ -1,3 +1,5 @@
+from kata_fizzbuzz import fizzbuzz
+
 def test_sale_fizz():
     pass
     # si es multiplo de 3 sale fizz
