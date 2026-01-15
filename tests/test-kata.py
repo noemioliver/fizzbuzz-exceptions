@@ -10,6 +10,10 @@ def test_sale_fizzbuzz():
     pass
     #si el numero es multiplo de 3 y de 5 sale fizzbuzz
 
+def test_numero_quinceotreinta():
+    pass
+    # si el numero es 15 o 30 sale fizzbuzz
+    
 def test_numero_cero():
     pass
     # si el numero es 0 sale fizzbuzz
