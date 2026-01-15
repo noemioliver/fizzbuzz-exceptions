@@ -13,7 +13,7 @@ def test_sale_fizzbuzz():
 def test_numero_quinceotreinta():
     pass
     # si el numero es 15 o 30 sale fizzbuzz
-    
+
 def test_numero_cero():
     pass
     # si el numero es 0 sale fizzbuzz

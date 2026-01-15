@@ -4,17 +4,19 @@
 # - Divisible entre 3 y entre 5, el programa debe imprimir "FizzBuzz"
 # - Si no es divisible ni entre 3 ni entre 5, debe imprimir el número
 
-try:
-    i = int(input("dame un numero: "))
-
+def fizzbuzz(i) -> str:
     if i % 15 == 0:
-        print("FizzBuzz")
+        return "FizzBuzz"
     elif i % 3 == 0:
-        print("Fizz")
+        return "Fizz"
     elif i % 5 == 0:
-        print("Buzz")
+        return "Buzz"
     else:
-        print(i)
+        return str(i)
 
-except ValueError:
-    print("Error solo se aceptan numeros")
+if __name__ == "__main__":
+    try:
+        i = int(input("dame un numero: "))
+        print(fizzbuzz(i))
+    except ValueError:
+        print("Error solo se aceptan numeros")
